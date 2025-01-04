@@ -1,0 +1,3 @@
+rootProject.name='RED'
+include ':app'
+//, ':vad',':library_common'

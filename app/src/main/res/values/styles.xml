@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!--  &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    </style>
+
+    <!--解决冷启动白屏问题-->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="bottomdialogAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/menu_bottombar_in</item>
+        <item name="android:windowExitAnimation">@anim/menu_bottombar_out</item>
+    </style>
+
+    <style name="textview10">
+        <item name="android:textSize">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="textview11">
+        <item name="android:textSize">11dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="textview12">
+        <item name="android:textSize">@dimen/dp12</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="textview13">
+        <item name="android:textSize">@dimen/dp13</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="textview14">
+        <item name="android:textSize">@dimen/dp14</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="textview15">
+        <item name="android:textSize">@dimen/dp15</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="textview16">
+        <item name="android:textSize">@dimen/common_16dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="textview18">
+        <item name="android:textSize">@dimen/dp18</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="textview20">
+        <item name="android:textSize">@dimen/dp20</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="mine_rl_selecor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:background">@drawable/white_selector</item>
+    </style>
+
+    <style name="personaldata_rl_selecor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:background">@drawable/white_selector</item>
+    </style>
+
+    <style name="relativelayout_45dp_selecor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:paddingLeft">22dp</item>
+        <item name="android:background">@drawable/white_selector</item>
+    </style>
+
+    <style name="rl_setting_selecor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/setting_rl_height</item>
+        <item name="android:paddingLeft">17dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:background">@drawable/white_selector</item>
+    </style>
+
+</resources>

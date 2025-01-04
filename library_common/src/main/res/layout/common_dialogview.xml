@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="85dp"
+    android:minHeight="85dp"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/radius5_half_white_bg"
+    android:orientation="vertical" >
+
+  <!--  <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>-->
+
+
+   <com.jbb.library_common.widght.ProgressWheel
+        android:id="@+id/progress_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:matProg_barColor="@color/common_color_999999"
+        app:matProg_progressIndeterminate="true"
+        android:layout_gravity="center_horizontal" />
+
+
+   <TextView
+        android:id="@+id/dialogview_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="11sp"
+        android:textColor="@color/common_color_999999"
+        android:text="@string/module_lib_loading" />
+
+</LinearLayout>

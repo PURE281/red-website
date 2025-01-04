@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:padding="15dp"
+    android:paddingBottom="40dp"
+    android:background="@color/common_transparent">
+
+    <TextView
+        android:id="@+id/btn_paizhao"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:textSize="20dp"
+        android:textColor="#3777f3"
+        android:gravity="center"
+        android:background="@drawable/top_corner13_white_selector"
+        android:text="@string/module_lib_take_photo" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/common_color_dedede"/>
+
+    <TextView
+        android:id="@+id/btn_tuku"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:textSize="20dp"
+        android:textColor="#3777f3"
+        android:gravity="center"
+        android:background="@drawable/bottom_corner13_white_selector"
+        android:text="@string/module_lib_gallery" />
+
+
+
+    <TextView
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/corner13_white_selector"
+        android:textSize="20dp"
+        android:textColor="#3777f3"
+        android:gravity="center"
+        android:text="@string/pickerview_cancel" />
+
+
+</LinearLayout>
